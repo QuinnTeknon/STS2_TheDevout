@@ -1,0 +1,19 @@
+﻿<!-- Copy this file and rename it to local.props, then fill in your paths. -->
+<Project>
+    <PropertyGroup>
+        <!-- Path to your Godot executable -->
+        <GodotPath>/home/quinn-teknon/Documents/Game Design/Card Games/Slay the Spire/modding/Context/Megadot/MegaDot_v4.5.1-stable_mono_linux.x86_64</GodotPath>
+        <!-- Which game install to build against / deploy to / test with: beta or public.
+             Switch here, or per build with -p:Sts2Branch=public. -->
+        <Sts2Branch>beta</Sts2Branch>
+        <!-- Full path to each "Slay the Spire 2" game folder (only the selected branch's path is needed) -->
+        <Sts2BetaPath>/home/quinn-teknon/.steam/steam/steamapps/common/Slay the Spire 2</Sts2BetaPath>
+        <Sts2PublicPath>/home/quinn-teknon/.steam/steam/steamapps/common/Slay the Spire 2</Sts2PublicPath>
+        <!-- Path to your GDRE extracted Slay the Spire 2 assets folder -->
+        <AssetSourcePath>/home/quinn-teknon/Documents/Game Design/Card Games/Slay the Spire/modding/Context/Slay the Spire 2</AssetSourcePath>
+
+        <!-- Set to true to also copy built dlls/pcks into a "mods" folder next to GodotPath, so running the
+             Godot editor standalone on this project (Debug config) loads mods the same way the game does. -->
+        <CopyToGodotMods>false</CopyToGodotMods>
+    </PropertyGroup>
+</Project>
