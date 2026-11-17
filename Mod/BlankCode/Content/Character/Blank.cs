@@ -1,5 +1,6 @@
 ﻿using BaseLib.Abstracts;
 using BaseLib.Utils.NodeFactories;
+using Blank.BlankCode.Content.Cards.Starters;
 using Blank.BlankCode.System.Extensions;
 using Godot;
 using MegaCrit.Sts2.Core.Entities.Characters;
@@ -9,8 +10,7 @@ using MegaCrit.Sts2.Core.Models.Relics;
 
 namespace Blank.BlankCode.Content.Character;
 
-public class Blank : PlaceholderCharacterModel
-{
+public class Blank : PlaceholderCharacterModel {
     public const string CharacterId = "Blank";
 
     public static readonly Color Color = new("ffffff");
@@ -19,22 +19,20 @@ public class Blank : PlaceholderCharacterModel
     public override CharacterGender Gender => CharacterGender.Neutral;
     public override int StartingHp => 70;
 
-    public override IEnumerable<CardModel> StartingDeck =>
-    [
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<DefendIronclad>(),
-        ModelDb.Card<DefendIronclad>(),
-        ModelDb.Card<DefendIronclad>(),
-        ModelDb.Card<DefendIronclad>(),
-        ModelDb.Card<DefendIronclad>()
+    public override IEnumerable<CardModel> StartingDeck => [
+        ModelDb.Card<StrikeBlank>(),
+        ModelDb.Card<StrikeBlank>(),
+        ModelDb.Card<StrikeBlank>(),
+        ModelDb.Card<StrikeBlank>(),
+        ModelDb.Card<StrikeBlank>(),
+        ModelDb.Card<DefendBlank>(),
+        ModelDb.Card<DefendBlank>(),
+        ModelDb.Card<DefendBlank>(),
+        ModelDb.Card<DefendBlank>(),
+        ModelDb.Card<DefendBlank>()
     ];
 
-    public override IReadOnlyList<RelicModel> StartingRelics =>
-    [
+    public override IReadOnlyList<RelicModel> StartingRelics => [
         ModelDb.Relic<BurningBlood>()
     ];
 
@@ -46,10 +44,8 @@ public class Blank : PlaceholderCharacterModel
         override all the other methods that define those assets.
         These are just some of the simplest assets, given some placeholders to differentiate your character with.
         You don't have to, but you're suggested to rename these images. */
-    public override Control CustomIcon
-    {
-        get
-        {
+    public override Control CustomIcon {
+        get {
             var icon = NodeFactory<Control>.CreateFromResource(CustomIconTexturePath);
             icon.SetAnchorsAndOffsetsPreset(Control.LayoutPreset.FullRect);
             return icon;
