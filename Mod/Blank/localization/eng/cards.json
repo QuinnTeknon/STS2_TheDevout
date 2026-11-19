@@ -1,6 +1,0 @@
-{
-  "BLANK-STRIKE_BLANK.title": "Strike",
-  "BLANK-STRIKE_BLANK.description": "Deal {Damage:diff()} damage.",
-  "BLANK-DEFEND_BLANK.title": "Defend",
-  "BLANK-DEFEND_BLANK.description": "Gain {Block:diff()} [gold]Block[/gold]."
-}

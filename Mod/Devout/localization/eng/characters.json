@@ -1,0 +1,18 @@
+{
+  "DEVOUT-DEVOUT.title": "The Devout",
+  "DEVOUT-DEVOUT.titleObject": "The Devout",
+  "DEVOUT-DEVOUT.shortTitle": "Devout",
+  "DEVOUT-DEVOUT.description": "",
+  "DEVOUT-DEVOUT.possessiveAdjective": "",
+  "DEVOUT-DEVOUT.pronounObject": "",
+  "DEVOUT-DEVOUT.pronounPossessive": "",
+  "DEVOUT-DEVOUT.pronounSubject": "",
+  "DEVOUT-DEVOUT.eventDeathPrevention": "",
+  "DEVOUT-DEVOUT.goldMonologue": "",
+  "DEVOUT-DEVOUT.banter.alive.endTurnPing": "",
+  "DEVOUT-DEVOUT.banter.dead.endTurnPing": "",
+  "DEVOUT-DEVOUT.cardsModifierDescription": "Devout cards will now appear in rewards and shops.",
+  "DEVOUT-DEVOUT.cardsModifierTitle": "Devout Cards",
+
+  "DEVOUT-DEVOUT.aromaPrinciple": "TODO"
+}
