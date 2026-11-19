@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class name="SpinePhysicsConstraintData" inherits="SpineConstraintData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/godotengine/godot/master/doc/class.xsd">
+	<brief_description>
+	</brief_description>
+	<description>
+	</description>
+	<tutorials>
+	</tutorials>
+	<methods>
+		<method name="get_bone">
+			<return type="SpineBoneData" />
+			<description>
+			</description>
+		</method>
+		<method name="get_damping">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_gravity">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_inertia">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_limit">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_mass_inverse">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_mix">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_scale_x">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_shear_x">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_step">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_strength">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_wind">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="is_damping_global">
+			<return type="bool" />
+			<description>
+			</description>
+		</method>
+		<method name="is_gravity_global">
+			<return type="bool" />
+			<description>
+			</description>
+		</method>
+		<method name="is_inertia_global">
+			<return type="bool" />
+			<description>
+			</description>
+		</method>
+		<method name="is_mass_global">
+			<return type="bool" />
+			<description>
+			</description>
+		</method>
+		<method name="is_mix_global">
+			<return type="bool" />
+			<description>
+			</description>
+		</method>
+		<method name="is_strength_global">
+			<return type="bool" />
+			<description>
+			</description>
+		</method>
+		<method name="is_wind_global">
+			<return type="bool" />
+			<description>
+			</description>
+		</method>
+	</methods>
+</class>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class name="FmodEvent" inherits="RefCounted" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/godotengine/godot/master/doc/class.xsd">
+	<brief_description>
+	</brief_description>
+	<description>
+	</description>
+	<tutorials>
+	</tutorials>
+	<methods>
+		<method name="event_key_off" qualifiers="const">
+			<return type="void" />
+			<description>
+			</description>
+		</method>
+		<method name="get_parameter_by_id" qualifiers="const">
+			<return type="float" />
+			<param index="0" name="parameter_id" type="int" />
+			<description>
+			</description>
+		</method>
+		<method name="get_parameter_by_name" qualifiers="const">
+			<return type="float" />
+			<param index="0" name="parameter_name" type="String" />
+			<description>
+			</description>
+		</method>
+		<method name="get_playback_state" qualifiers="const">
+			<return type="int" enum="FMOD_STUDIO_PLAYBACK_STATE" />
+			<description>
+			</description>
+		</method>
+		<method name="get_programmer_callback_sound_key" qualifiers="const">
+			<return type="String" />
+			<description>
+			</description>
+		</method>
+		<method name="get_reverb_level" qualifiers="const">
+			<return type="float" />
+			<param index="0" name="index" type="int" />
+			<description>
+			</description>
+		</method>
+		<method name="is_valid" qualifiers="const">
+			<return type="bool" />
+			<description>
+			</description>
+		</method>
+		<method name="is_virtual" qualifiers="const">
+			<return type="bool" />
+			<description>
+			</description>
+		</method>
+		<method name="release" qualifiers="const">
+			<return type="void" />
+			<description>
+			</description>
+		</method>
+		<method name="set_3d_attributes" qualifiers="const">
+			<return type="void" />
+			<param index="0" name="transform" type="Transform3D" />
+			<description>
+			</description>
+		</method>
+		<method name="set_callback">
+			<return type="void" />
+			<param index="0" name="callback" type="Callable" />
+			<param index="1" name="callbackMask" type="int" />
+			<description>
+			</description>
+		</method>
+		<method name="set_parameter_by_id" qualifiers="const">
+			<return type="void" />
+			<param index="0" name="parameter_id" type="int" />
+			<param index="1" name="value" type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="set_parameter_by_id_with_label" qualifiers="const">
+			<return type="void" />
+			<param index="0" name="parameter_id" type="int" />
+			<param index="1" name="label" type="String" />
+			<param index="2" name="ignoreseekspeed" type="bool" />
+			<description>
+			</description>
+		</method>
+		<method name="set_parameter_by_name" qualifiers="const">
+			<return type="void" />
+			<param index="0" name="parameter_name" type="String" />
+			<param index="1" name="value" type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="set_parameter_by_name_with_label" qualifiers="const">
+			<return type="void" />
+			<param index="0" name="parameter_name" type="String" />
+			<param index="1" name="label" type="String" />
+			<param index="2" name="ignoreseekspeed" type="bool" />
+			<description>
+			</description>
+		</method>
+		<method name="set_programmer_callback">
+			<return type="void" />
+			<param index="0" name="p_programmers_callback_sound_key" type="String" />
+			<description>
+			</description>
+		</method>
+		<method name="set_reverb_level" qualifiers="const">
+			<return type="void" />
+			<param index="0" name="index" type="int" />
+			<param index="1" name="level" type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="start" qualifiers="const">
+			<return type="void" />
+			<description>
+			</description>
+		</method>
+		<method name="stop" qualifiers="const">
+			<return type="void" />
+			<param index="0" name="stopMode" type="int" />
+			<description>
+			</description>
+		</method>
+	</methods>
+	<members>
+		<member name="listener_mask" type="int" setter="set_listener_mask" getter="get_listener_mask">
+		</member>
+		<member name="paused" type="bool" setter="set_paused" getter="get_paused">
+		</member>
+		<member name="pitch" type="float" setter="set_pitch" getter="get_pitch">
+		</member>
+		<member name="position" type="int" setter="set_timeline_position" getter="get_timeline_position">
+		</member>
+		<member name="transform_2d" type="Transform2D" setter="set_2d_attributes" getter="get_2d_attributes">
+		</member>
+		<member name="transform_3d" type="Transform3D" setter="set_node_attributes" getter="get_3d_attributes">
+		</member>
+		<member name="volume" type="float" setter="set_volume" getter="get_volume">
+		</member>
+	</members>
+	<constants>
+		<constant name="FMOD_STUDIO_PLAYBACK_PLAYING" value="0" enum="FMOD_STUDIO_PLAYBACK_STATE">
+		</constant>
+		<constant name="FMOD_STUDIO_PLAYBACK_SUSTAINING" value="1" enum="FMOD_STUDIO_PLAYBACK_STATE">
+		</constant>
+		<constant name="FMOD_STUDIO_PLAYBACK_STOPPED" value="2" enum="FMOD_STUDIO_PLAYBACK_STATE">
+		</constant>
+		<constant name="FMOD_STUDIO_PLAYBACK_STARTING" value="3" enum="FMOD_STUDIO_PLAYBACK_STATE">
+		</constant>
+		<constant name="FMOD_STUDIO_PLAYBACK_STOPPING" value="4" enum="FMOD_STUDIO_PLAYBACK_STATE">
+		</constant>
+		<constant name="FMOD_STUDIO_PLAYBACK_FORCEINT" value="65536" enum="FMOD_STUDIO_PLAYBACK_STATE">
+		</constant>
+	</constants>
+</class>

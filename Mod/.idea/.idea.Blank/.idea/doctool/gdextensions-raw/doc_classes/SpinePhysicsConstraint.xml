@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class name="SpinePhysicsConstraint" inherits="SpineObjectWrapper" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/godotengine/godot/master/doc/class.xsd">
+	<brief_description>
+	</brief_description>
+	<description>
+	</description>
+	<tutorials>
+	</tutorials>
+	<methods>
+		<method name="get_bone">
+			<return type="SpineBone" />
+			<description>
+			</description>
+		</method>
+		<method name="get_cx">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_cy">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_damping">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_gravity">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_inertia">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_last_Time">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_mass_inverse">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_mix">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_remaining">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_reset">
+			<return type="bool" />
+			<description>
+			</description>
+		</method>
+		<method name="get_rotate_offset">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_rotate_velocity">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_scale_offset">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_scale_velocity">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_strength">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_tx">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_ty">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_ux">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_uy">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_wind">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_x_offset">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_x_velocity">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_y_offset">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="get_y_velocity">
+			<return type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="is_active">
+			<return type="bool" />
+			<description>
+			</description>
+		</method>
+		<method name="reset">
+			<return type="void" />
+			<description>
+			</description>
+		</method>
+		<method name="rotate">
+			<return type="void" />
+			<param index="0" name="x" type="float" />
+			<param index="1" name="y" type="float" />
+			<param index="2" name="degrees" type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="set_active">
+			<return type="void" />
+			<param index="0" name="value" type="bool" />
+			<description>
+			</description>
+		</method>
+		<method name="set_cx">
+			<return type="void" />
+			<param index="0" name="value" type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="set_cy">
+			<return type="void" />
+			<param index="0" name="value" type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="set_damping">
+			<return type="void" />
+			<param index="0" name="value" type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="set_gravity">
+			<return type="void" />
+			<param index="0" name="value" type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="set_inertia">
+			<return type="void" />
+			<param index="0" name="value" type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="set_last_Time">
+			<return type="void" />
+			<param index="0" name="value" type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="set_mass_inverse">
+			<return type="void" />
+			<param index="0" name="value" type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="set_mix">
+			<return type="void" />
+			<param index="0" name="value" type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="set_remaining">
+			<return type="void" />
+			<param index="0" name="value" type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="set_reset">
+			<return type="void" />
+			<param index="0" name="value" type="bool" />
+			<description>
+			</description>
+		</method>
+		<method name="set_rotate_offset">
+			<return type="void" />
+			<param index="0" name="value" type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="set_rotate_velocity">
+			<return type="void" />
+			<param index="0" name="value" type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="set_scale_offset">
+			<return type="void" />
+			<param index="0" name="value" type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="set_scale_velocity">
+			<return type="void" />
+			<param index="0" name="value" type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="set_strength">
+			<return type="void" />
+			<param index="0" name="value" type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="set_tx">
+			<return type="void" />
+			<param index="0" name="value" type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="set_ty">
+			<return type="void" />
+			<param index="0" name="value" type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="set_ux">
+			<return type="void" />
+			<param index="0" name="value" type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="set_uy">
+			<return type="void" />
+			<param index="0" name="value" type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="set_wind">
+			<return type="void" />
+			<param index="0" name="value" type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="set_x_offset">
+			<return type="void" />
+			<param index="0" name="value" type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="set_x_velocity">
+			<return type="void" />
+			<param index="0" name="value" type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="set_y_offset">
+			<return type="void" />
+			<param index="0" name="value" type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="set_y_velocity">
+			<return type="void" />
+			<param index="0" name="value" type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="translate">
+			<return type="void" />
+			<param index="0" name="x" type="float" />
+			<param index="1" name="y" type="float" />
+			<description>
+			</description>
+		</method>
+		<method name="update">
+			<return type="void" />
+			<param index="0" name="physics" type="int" enum="SpineConstant.Physics" />
+			<description>
+			</description>
+		</method>
+	</methods>
+</class>
