@@ -1,23 +1,32 @@
 ﻿using BaseLib.Abstracts;
 using BaseLib.Utils.NodeFactories;
 using Devout.DevoutCode.Content.Cards.Starters;
+using Devout.DevoutCode.Content.Relics.Starters;
 using Devout.DevoutCode.System.Extensions;
 using Godot;
 using MegaCrit.Sts2.Core.Entities.Characters;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Cards;
 using MegaCrit.Sts2.Core.Models.Relics;
+using MegaCrit.Sts2.Core.Nodes.Vfx;
 
 namespace Devout.DevoutCode.Content.Character;
 
 public class Devout : PlaceholderCharacterModel {
     public const string CharacterId = "Devout";
 
-    public static readonly Color Color = new("ffffff");
+
+    public static readonly Color Color = new("EEEE00");
+    public override Color MapDrawingColor => Color;
+    public override Color DialogueColor => Color;
+    public override VfxColor SpeechBubbleColor => VfxColor.Gold;
 
     public override Color NameColor => Color;
-    public override CharacterGender Gender => CharacterGender.Neutral;
-    public override int StartingHp => 70;
+    public override CharacterGender Gender => CharacterGender.Feminine;
+    public override int StartingHp => 90;
+
+    public override Color RemoteTargetingLineColor => new("EFE634");
+    public override Color RemoteTargetingLineOutline => new("BFB839");
 
     public override IEnumerable<CardModel> StartingDeck => [
         ModelDb.Card<StrikeDevout>(),
@@ -25,15 +34,15 @@ public class Devout : PlaceholderCharacterModel {
         ModelDb.Card<StrikeDevout>(),
         ModelDb.Card<StrikeDevout>(),
         ModelDb.Card<StrikeDevout>(),
-        ModelDb.Card<DefendDevout>(),
-        ModelDb.Card<DefendDevout>(),
-        ModelDb.Card<DefendDevout>(),
-        ModelDb.Card<DefendDevout>(),
-        ModelDb.Card<DefendDevout>()
+        ModelDb.Card<PrayDevout>(),
+        ModelDb.Card<PrayDevout>(),
+        ModelDb.Card<PrayDevout>(),
+        ModelDb.Card<PrayDevout>(),
+        ModelDb.Card<PrayDevout>()
     ];
 
     public override IReadOnlyList<RelicModel> StartingRelics => [
-        ModelDb.Relic<BurningBlood>()
+        ModelDb.Relic<BloodOfTheGods>()
     ];
 
     public override CardPoolModel CardPool => ModelDb.CardPool<DevoutCardPool>();
@@ -51,6 +60,7 @@ public class Devout : PlaceholderCharacterModel {
             return icon;
         }
     }
+    public override Color EnergyLabelOutlineColor => Colors.Gold.Blend(Colors.Black.Alpha(0.5));
 
     public override string CustomIconTexturePath => "character_icon_char_name.png".CharacterUiPath();
     public override string CustomCharacterSelectIconPath => "char_select_char_name.png".CharacterUiPath();

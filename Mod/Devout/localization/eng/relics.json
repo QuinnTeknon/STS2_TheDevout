@@ -1,3 +1,9 @@
 {
-  
+  "DEVOUT-BLOOD_OF_THE_GODS.description": "At the start of combat, gain [green]{RegenPower}[/green] [gold]Regen[/gold], and gain [gold]Flagellant[/gold].",
+  "DEVOUT-BLOOD_OF_THE_GODS.flavor": "The blood that oozed from the Devout's first wound. A reminder of her penance.",
+  "DEVOUT-BLOOD_OF_THE_GODS.title": "Blood of the Gods",
+
+  "DEVOUT-MILK_OF_CREATION.description": "At the start of combat, gain [green]{RegenPower}[/green] [gold]Regen[/gold], and gain [gold]Flagellant[/gold].",
+  "DEVOUT-MILK_OF_CREATION.flavor": "The milk that the Devout will never again nurse. A reminder of her regrets.",
+  "DEVOUT-MILK_OF_CREATION.title": "Milk of Creation"
 }

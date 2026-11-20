@@ -10,7 +10,141 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10718ac-31a6-47fe-8843-2b0fa7077969" name="Changes" comment="" />
+    <list default="true" id="b10718ac-31a6-47fe-8843-2b0fa7077969" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DevoutCode/Content/Cards/BlankCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevoutCode/Content/Cards/Starters/PrayDevout.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevoutCode/Content/Relics/Starters/BloodOfTheGods.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevoutCode/Content/Relics/Starters/MilkOfCreation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/FmodBank.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/FmodBankLoader.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/FmodBus.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/FmodDspSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/FmodEvent.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/FmodEventDescription.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/FmodEventEmitter2D.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/FmodEventEmitter3D.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/FmodFile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/FmodGeneralSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/FmodListener2D.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/FmodListener3D.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/FmodLoggingSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/FmodParameterDescription.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/FmodPerformanceData.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/FmodPluginsSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/FmodServer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/FmodSoftwareFormatSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/FmodSound.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/FmodSound3DSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/FmodStaticPluginMethod.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/FmodVCA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineAnimation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineAnimationMix.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineAnimationState.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineAtlasResource.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineAtlasResourceFormatLoader.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineAtlasResourceFormatSaver.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineAttachment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineBone.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineBoneData.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineBoneNode.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineConstant.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineConstraintData.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineEvent.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineEventData.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineIkConstraint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineIkConstraintData.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineMesh2D.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineObjectWrapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpinePathConstraint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpinePathConstraintData.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpinePhysicsConstraint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpinePhysicsConstraintData.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineSkeleton.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineSkeletonDataResource.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineSkeletonFileResource.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineSkeletonFileResourceFormatLoader.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineSkeletonFileResourceFormatSaver.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineSkin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineSkinEntry.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineSlot.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineSlotData.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineSlotNode.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineSprite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineTimeline.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineTrackEntry.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineTransformConstraint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions-raw/doc_classes/SpineTransformConstraintData.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/FmodBank.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/FmodBankLoader.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/FmodBus.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/FmodDspSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/FmodEvent.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/FmodEventDescription.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/FmodEventEmitter2D.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/FmodEventEmitter3D.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/FmodFile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/FmodGeneralSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/FmodListener2D.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/FmodListener3D.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/FmodLoggingSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/FmodParameterDescription.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/FmodPerformanceData.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/FmodPluginsSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/FmodServer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/FmodSoftwareFormatSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/FmodSound.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/FmodSound3DSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/FmodStaticPluginMethod.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/FmodVCA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineAnimation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineAnimationMix.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineAnimationState.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineAtlasResource.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineAtlasResourceFormatLoader.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineAtlasResourceFormatSaver.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineAttachment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineBone.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineBoneData.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineBoneNode.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineConstant.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineConstraintData.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineEvent.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineEventData.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineIkConstraint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineIkConstraintData.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineMesh2D.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineObjectWrapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpinePathConstraint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpinePathConstraintData.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpinePhysicsConstraint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpinePhysicsConstraintData.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineSkeleton.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineSkeletonDataResource.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineSkeletonFileResource.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineSkeletonFileResourceFormatLoader.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineSkeletonFileResourceFormatSaver.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineSkin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineSkinEntry.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineSlot.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineSlotData.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineSlotNode.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineSprite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineTimeline.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineTrackEntry.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineTransformConstraint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/gdextensions/SpineTransformConstraintData.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/singletons/doc_classes/@GDExtensionScope.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/stamp-gdext-merge.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/stamp-gdext-merge.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/stamp-gdext.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/stamp-gdext.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/stamp-singletons.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/doctool/stamp-singletons.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Devout/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devout/localization/eng/cards.json" beforeDir="false" afterPath="$PROJECT_DIR$/Devout/localization/eng/cards.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devout/localization/eng/characters.json" beforeDir="false" afterPath="$PROJECT_DIR$/Devout/localization/eng/characters.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Devout/localization/eng/relics.json" beforeDir="false" afterPath="$PROJECT_DIR$/Devout/localization/eng/relics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevoutCode/Content/Cards/DevoutCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DevoutCode/Content/Cards/DevoutCard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevoutCode/Content/Character/Devout.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DevoutCode/Content/Character/Devout.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevoutCode/Content/Character/DevoutCardPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DevoutCode/Content/Character/DevoutCardPool.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,63 +156,69 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/DevoutCode/Content/Cards/DevoutCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DevoutCode/Content/Cards/Starters/PrayDevout.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DevoutCode/Content/Relics/BloodOfTheGods.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DevoutCode/Content/Relics/Starters/MilkOfCreation.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
+      <entry key="MS100" value="1.4033804375133107E-9" />
+      <entry key="MS500" value="0.029459285712633454" />
+      <entry key="S2" value="0.6966732870876442" />
+      <entry key="S5" value="1.3116735121686605" />
+      <entry key="S10" value="1.6196725436397563" />
+      <entry key="S30" value="1.8658890180786163" />
+      <entry key="S60" value="2.00179031998925" />
+      <entry key="M2" value="2.428882671671385" />
+      <entry key="M5" value="3.5956210608070203" />
+      <entry key="M10" value="5.361604869351395" />
+      <entry key="M15" value="7.055002106155076" />
+      <entry key="M30" value="10.643486899391524" />
+      <entry key="H1" value="13.91433422097029" />
+      <entry key="H2" value="16.17206829968921" />
+      <entry key="H4" value="17.505742889219345" />
+      <entry key="D1" value="18.73894177721131" />
+      <entry key="W1" value="18.96239971548539" />
+    </decayedCancelled>
+    <decayedSelected>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
       <entry key="S2" value="1.0" />
       <entry key="S5" value="1.0" />
       <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0" />
-      <entry key="S60" value="1.0" />
-      <entry key="M2" value="1.0" />
-      <entry key="M5" value="1.0" />
-      <entry key="M10" value="1.0" />
-      <entry key="M15" value="1.0" />
-      <entry key="M30" value="1.0" />
-      <entry key="H1" value="1.0" />
-      <entry key="H2" value="1.0" />
-      <entry key="H4" value="1.0" />
-      <entry key="D1" value="1.0" />
-      <entry key="W1" value="1.0" />
-    </decayedCancelled>
-    <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="S30" value="1.0000000001220466" />
+      <entry key="S60" value="1.000019112241321" />
+      <entry key="M2" value="1.007602933874978" />
+      <entry key="M5" value="1.2985776922288181" />
+      <entry key="M10" value="2.128119083648918" />
+      <entry key="M15" value="2.812184422509219" />
+      <entry key="M30" value="3.973561856930148" />
+      <entry key="H1" value="4.843448453391672" />
+      <entry key="H2" value="5.380129947237854" />
+      <entry key="H4" value="5.678837720223148" />
+      <entry key="D1" value="5.944837521183699" />
+      <entry key="W1" value="5.9920785608362666" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.0018350053695586157" />
-      <entry key="MS500" value="0.2836138712339885" />
-      <entry key="S2" value="0.729763044896567" />
-      <entry key="S5" value="0.881602365474992" />
-      <entry key="S10" value="0.9389368272013789" />
-      <entry key="S30" value="0.979216654035547" />
-      <entry key="S60" value="0.9895537651060436" />
-      <entry key="M2" value="0.9947631703606863" />
-      <entry key="M5" value="0.9979019679952311" />
-      <entry key="M10" value="0.9989504332023842" />
-      <entry key="M15" value="0.9993001663455183" />
-      <entry key="M30" value="0.9996500219304345" />
-      <entry key="H1" value="0.9998249956519564" />
-      <entry key="H2" value="0.999912493997328" />
-      <entry key="H4" value="0.9999562460414595" />
-      <entry key="D1" value="0.999992707540628" />
-      <entry key="W1" value="0.9999989582168338" />
+      <entry key="MS100" value="1.5392288246650072E-6" />
+      <entry key="MS500" value="0.0838752585606877" />
+      <entry key="S2" value="1.0034721364841788" />
+      <entry key="S5" value="1.8805046025614929" />
+      <entry key="S10" value="2.3624670529725913" />
+      <entry key="S30" value="2.768614301187723" />
+      <entry key="S60" value="2.951524475552602" />
+      <entry key="M2" value="3.4107559537443635" />
+      <entry key="M5" value="4.882348665513954" />
+      <entry key="M10" value="7.481011536577537" />
+      <entry key="M15" value="9.859411676164006" />
+      <entry key="M30" value="14.611117727553816" />
+      <entry key="H1" value="18.753915657793925" />
+      <entry key="H2" value="21.549960085400127" />
+      <entry key="H4" value="23.183372569594987" />
+      <entry key="D1" value="24.683564348238903" />
+      <entry key="W1" value="24.954447218206628" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -90,26 +230,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Executable.Play Mod.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Publish to folder.Build Mod.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/quinn-teknon/Documents/Game Design/Card Games/Slay the Spire/modding/Context/Megadot/MegaDot_v4.5.1-stable_mono_linux.x86_64",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Executable.Play Mod.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Publish to folder.Build Mod.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/quinn-teknon/Documents/Game Design/Card Games/Slay the Spire/modding/Context/Megadot/MegaDot_v4.5.1-stable_mono_linux.x86_64&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Executable.Play Mod">
     <configuration name="Build Mod" type="DotNetFolderPublish" factoryName="Publish to folder">
       <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$USER_HOME$/.steam/steam/steamapps/common/Slay the Spire 2/mods/Devout" target_framework="net9.0" uuid_high="4499191208221033042" uuid_low="-7249082186096457167">

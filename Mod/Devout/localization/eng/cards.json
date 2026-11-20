@@ -2,5 +2,7 @@
   "DEVOUT-STRIKE_DEVOUT.title": "Strike",
   "DEVOUT-STRIKE_DEVOUT.description": "Deal {Damage:diff()} damage.",
   "DEVOUT-DEFEND_DEVOUT.title": "Defend",
-  "DEVOUT-DEFEND_DEVOUT.description": "Gain {Block:diff()} [gold]Block[/gold]."
+  "DEVOUT-DEFEND_DEVOUT.description": "Gain {Block:diff()} [gold]Block[/gold].",
+  "DEVOUT-PRAY_DEVOUT.title": "Pray",
+  "DEVOUT-PRAY_DEVOUT.description": "Heal {Heal:diff()} HP.\nLose {HpLoss:diff()} HP."
 }
